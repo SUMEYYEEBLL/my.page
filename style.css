@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+h1{
+    color: white;
+     margin: 60px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ cursor: pointer;
+}
+h1:hover{
+    color: red;
+}
+
+nav {
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: large;
+    color: white;
+   
+    margin:20px auto;
+    padding: 10px;
+    /* position: sticky; */
+    top: 100px;
+    z-index: 1;
+    justify-content: center;
+
+  }
+  nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+  }
+  nav li a {
+    color: white;
+    text-decoration: none;
+    /* color: #4b4b4b; */
+  }
+  
+  nav li a:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+   color: red;
+   position: relative;
+   cursor: pointer;
+  }
+  
+.metin {
+    color: white;
+    margin: 80px auto;
+    padding: 60px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: initial;
+}
+
+.metin:hover {
+    color: red;
+}
+
+.ortabaşlık {
+    color: white;
+    margin: 40px auto;
+    padding: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ortabaşlık:hover {
+    color: red;
+}
+
+.images{
+    cursor: pointer;
+    
+}
+
+
+h3 {
+    margin:50px auto;
+    padding: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3:hover{
+    color: red;
+    cursor: pointer;
+    position: relative;
+}
+
+.conson {
+    margin-top: 2rem;
+    margin:20px ;
+    padding: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo input {
+outline: none;
+background-color: white;
+vertical-align: middle;
+color: black;
+gap: 3rem;
+margin: 8px auto;
+padding: 20px 160px;
+border-radius: 20px;
+text-align: center;
+}
+
+.logo input:hover {
+ opacity: 2,5;
+ border: 2 solid red;
+ background-color: rgb(154, 65, 65) ;
+ cursor: pointer;
+ position: relative;
+
+}
+
+.logo-take input {
+    outline: none;
+    background-color: white;
+    vertical-align: middle;
+    color: black;
+    gap: 3rem;
+    margin: 8px auto;
+    padding: 80px 160px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.logo-take input:hover {
+    cursor: pointer;
+    opacity: 0,5;
+    background-color: rgb(154, 65, 65);
+    border: 2 px solid red;
+    border-radius: 20px;
+    
+}
+
+
+button {
+ vertical-align: middle;
+background-color: #EF5466;
+color:  white;
+gap: 3rem;
+margin: 30px auto;
+padding: 20px 130px;
+border: none;
+border-radius: 30px;
+text-align: center;;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
